@@ -10,7 +10,7 @@ func (m floatMap) output() {
 
 func main() {
 	// this is a slice, not an array but of course it points to an array underlying.
-	// That means co creates a new array whenever a new entry is inserted.
+	// That means go creates a new array whenever a new entry is inserted.
 	//userNames := []string{}
 
 	// Create a preallocated slice with make that has 2 empty slots (Good for memory management)
